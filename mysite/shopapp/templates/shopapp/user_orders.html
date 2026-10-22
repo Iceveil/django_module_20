@@ -1,0 +1,47 @@
+{% extends "shopapp/base.html" %}
+{% load cache %}
+
+{% block title%}
+	User orders
+{% endblock %}
+
+
+{% block body %}
+  {% if orders %}
+	{% cache 100 owner.cache_owner_key %}
+	    <h1>Пользователь {{ owner.username }} выполнил следующие заказы</h1>
+	    <table>
+	      <thead>
+	        <tr>
+	          <th>ID заказа</th>
+	          <th>Дата</th>
+	          <th>Адрес доставки</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        {% for order in orders %}
+	          <tr>
+	            <td>{{ order.id }}</td>
+	            <td>{{ order.created_at}}</td>
+	            <td>{{ order.delivery_address }}</td>
+	          </tr>
+	        {% endfor %}
+	      </tbody>
+	    </table>
+	{% endcache %}
+
+    {% if is_paginated %}
+      <div class="pagination">
+        {% if page_obj.has_previous %}
+          <a href="?page={{ page_obj.previous_page_number }}">Предыдущая</a>
+        {% endif %}
+        Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}
+        {% if page_obj.has_next %}
+          <a href="?page={{ page_obj.next_page_number }}">Следующая</a>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% else %}
+    <h1>У пользователя {{ owner.username }} ещё нет заказов</h1>
+  {% endif %}
+{% endblock %}

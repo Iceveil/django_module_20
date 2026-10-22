@@ -1,0 +1,119 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Oxford",
+      "description": "",
+      "price": "59.00",
+      "discount": 2,
+      "created_at": "2026-09-06T09:54:35.823Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Dewspo (new)",
+      "description": "83  gsm, 100% poly, 150 cm, 100 m ... Дюспо — лёгкая курточная ткань с водоотталкивающей пропиткой.",
+      "price": "88.00",
+      "discount": 4,
+      "created_at": "2026-09-06T09:54:35.823Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Biflex",
+      "description": "",
+      "price": "197.00",
+      "discount": 5,
+      "created_at": "2026-09-06T09:54:35.823Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "Taffeta",
+      "description": "40 gsm",
+      "price": "30.00",
+      "discount": 0,
+      "created_at": "2026-09-10T14:36:44.996Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 6,
+    "fields": {
+      "name": "Fleece",
+      "description": "180 gsm",
+      "price": "267.00",
+      "discount": 10,
+      "created_at": "2026-09-11T17:12:27.586Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "iphone",
+      "description": "super",
+      "price": "10000.00",
+      "discount": 10,
+      "created_at": "2026-09-21T15:40:58.872Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 8,
+    "fields": {
+      "name": "iphone",
+      "description": "super",
+      "price": "10000.00",
+      "discount": 10,
+      "created_at": "2026-09-21T15:41:20.002Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Dewspo2",
+      "description": "gg wp",
+      "price": "145.00",
+      "discount": 10,
+      "created_at": "2026-09-26T11:43:41.523Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 10,
+    "fields": {
+      "name": "Dewspo3",
+      "description": "gg wp",
+      "price": "178.00",
+      "discount": 1,
+      "created_at": "2026-09-26T16:47:13.167Z",
+      "archived": false,
+      "created_by": 1
+    }
+  }
+]

@@ -1,0 +1,853 @@
+INFO 2026-10-08 14:16:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:20:12 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:20:13 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:44:50 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:44:51 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:45:30 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:45:31 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:45:48 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:45:49 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:46:17 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:46:18 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:47:43 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:47:43 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:50:33 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:51:01 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:51:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:51:18 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:51:18 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:52:08 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+INFO 2026-10-08 14:52:09 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:53:51 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-08 14:56:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-08 14:56:19 log django.request Not Found: /
+INFO 2026-10-12 16:19:27 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-12 16:19:39 log django.request Not Found: /
+WARNING 2026-10-12 16:19:40 log django.request Not Found: /favicon.ico
+WARNING 2026-10-12 16:19:57 log django.request Not Found: /ru/shop/products/export
+INFO 2026-10-13 15:21:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 15:21:04 log django.request Not Found: /
+WARNING 2026-10-13 15:21:05 log django.request Not Found: /favicon.ico
+INFO 2026-10-13 15:27:58 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:27:59 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:28:36 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:28:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2026-10-13 15:29:29 log django.request Internal Server Error: /ru/admin/shopapp/product/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 222, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 1565, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 693, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 793, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Template: /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/templates/shopapp/products_changelist.html, Could not parse the remainder: ':import_products_csv' from 'admin:import_products_csv'
+INFO 2026-10-13 15:35:27 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:35:28 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:36:22 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:36:23 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:36:33 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:36:34 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:36:44 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:36:45 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:37:01 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:37:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:38:10 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:38:11 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:39:15 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:39:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:39:32 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:39:33 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:39:41 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:39:41 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:40:02 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:40:03 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:41:05 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:41:06 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:41:20 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:41:21 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:42:32 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:42:33 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:43:01 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:43:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:43:43 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:43:43 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:43:58 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:43:59 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:44:07 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:44:08 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 15:44:09 log django.request Bad Request: /ru/admin/shopapp/product/import-products-csv
+WARNING 2026-10-13 15:45:46 log django.request Bad Request: /ru/admin/shopapp/product/import-products-csv
+INFO 2026-10-13 15:46:37 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:46:38 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 15:46:39 log django.request Bad Request: /ru/admin/shopapp/product/import-products-csv
+INFO 2026-10-13 15:47:19 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:47:20 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 15:47:22 log django.request Bad Request: /ru/admin/shopapp/product/import-products-csv
+INFO 2026-10-13 15:48:05 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:48:06 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 15:48:09 log django.request Bad Request: /ru/admin/shopapp/product/import-products-csv
+INFO 2026-10-13 15:53:28 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:53:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:54:29 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:54:30 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 15:54:48 log django.request Bad Request: /ru/admin/shopapp/product/import-products-csv
+INFO 2026-10-13 15:55:20 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:55:21 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 15:59:36 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 15:59:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 16:00:15 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 16:00:16 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 16:05:19 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 16:05:27 log django.security.csrf Forbidden (CSRF token missing.): /ru/admin/shopapp/product/
+INFO 2026-10-13 17:09:48 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:11:43 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:11:44 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:11:59 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:12:00 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:14:47 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:14:48 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:18:11 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:18:11 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:18:32 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:18:32 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:18:57 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:18:57 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:19:25 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:19:25 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:19:46 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:19:46 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:20:45 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:20:46 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:21:03 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:21:04 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:21:08 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:21:09 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:22:18 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:22:19 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:22:36 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:22:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:23:33 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:23:34 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:24:52 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:24:53 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:25:19 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:25:20 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:26:05 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:26:05 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:26:14 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:26:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:26:58 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:26:58 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:27:04 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:27:04 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:27:10 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:27:10 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:27:20 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:27:21 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:27:28 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:27:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:27:38 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:27:39 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:28:27 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:28:28 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:28:36 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:28:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:29:02 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:29:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:29:29 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:29:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:29:38 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:29:39 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:30:17 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:30:18 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:36:22 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:36:23 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:36:56 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:36:57 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:37:08 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:37:09 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:37:31 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:37:32 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:37:51 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:37:52 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:38:14 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:38:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:38:56 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:38:57 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:41:48 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:41:49 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:42:09 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:42:10 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:42:23 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:42:24 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:42:31 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:42:32 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:42:56 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:42:57 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:43:14 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:43:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:46:04 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/admin.py changed, reloading.
+INFO 2026-10-13 17:46:05 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:46:59 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:47:00 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:47:18 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:47:19 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-13 17:56:49 autoreload django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2026-10-13 17:57:00 log django.request Internal Server Error: /ru/shop/api/products/upload_csv/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 64, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/rest_framework/viewsets.py", line 150, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 398, in initialize_request
+    parsers=self.get_parsers(),
+            ^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 271, in get_parsers
+    return [parser() for parser in self.parser_classes]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'type' object is not iterable
+INFO 2026-10-13 17:58:36 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-13 17:58:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-13 17:58:40 log django.request Method Not Allowed: /ru/shop/api/products/upload_csv/
+INFO 2026-10-15 16:49:35 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-15 16:49:38 log django.request Not Found: /
+WARNING 2026-10-15 16:49:38 log django.request Not Found: /favicon.ico
+INFO 2026-10-15 16:55:38 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 16:55:39 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 16:56:23 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+INFO 2026-10-15 16:56:24 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 16:57:03 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+INFO 2026-10-15 16:57:04 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 16:59:25 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 16:59:26 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 16:59:52 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 16:59:53 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:01:13 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:01:13 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:01:36 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:01:36 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:02:16 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:02:17 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:02:36 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:02:36 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:03:02 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:03:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:03:31 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:03:31 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:04:29 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:04:30 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:05:56 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:05:57 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:07:15 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:07:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:07:37 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:07:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:07:50 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:07:51 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-15 17:08:53 log django.request Not Found: /
+WARNING 2026-10-15 17:08:58 log django.request Not Found: /products/latest/feed/
+ERROR 2026-10-15 17:09:29 log django.request Internal Server Error: /ru/shop/products/latest/feed/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 40, in __call__
+    feedgen = self.get_feed(obj, request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 143, in get_feed
+    link = add_domain(current_site.domain, link, request.is_secure())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 17, in add_domain
+    if url.startswith("//"):
+       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/utils/functional.py", line 187, in __wrapper__
+    result = func(*self._args, **self._kw)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'products-list' not found. 'products-list' is not a valid view function or pattern name.
+INFO 2026-10-15 17:10:11 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:10:12 autoreload django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2026-10-15 17:10:14 log django.request Internal Server Error: /ru/shop/products/latest/feed/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 40, in __call__
+    feedgen = self.get_feed(obj, request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 181, in get_feed
+    for item in self._get_dynamic_attr("items", obj):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 105, in _get_dynamic_attr
+    return attr()
+           ^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py", line 41, in items
+    return Product.objects.filter(created_at__isnull=False).order_by("-creates_at")[:5]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1940, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 2347, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1846, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'creates_at' into field. Choices are: archived, created_at, created_by, created_by_id, description, discount, id, images, name, orders, preview, price
+INFO 2026-10-15 17:10:32 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:10:33 autoreload django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2026-10-15 17:10:34 log django.request Internal Server Error: /ru/shop/products/latest/feed/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 40, in __call__
+    feedgen = self.get_feed(obj, request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 195, in get_feed
+    self._get_dynamic_attr("item_link", item),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 103, in _get_dynamic_attr
+    return attr(obj)
+           ^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py", line 50, in item_link
+    return reverse('shopapp:products-details', kwargs=({'pk': item.pk}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'products-details' not found. 'products-details' is not a valid view function or pattern name.
+INFO 2026-10-15 17:10:45 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-15 17:10:45 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-15 17:59:01 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-15 17:59:04 log django.request Not Found: /
+INFO 2026-10-16 16:13:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-16 16:13:31 log django.request Not Found: /
+WARNING 2026-10-16 16:13:31 log django.request Not Found: /favicon.ico
+INFO 2026-10-16 16:19:52 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:19:53 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-16 16:20:09 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:20:10 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-16 16:20:40 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:20:41 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-16 16:21:19 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:21:20 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-16 16:21:57 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:21:58 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-16 16:22:34 log django.request Not Found: /ru/api/products/
+INFO 2026-10-16 16:23:51 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:23:52 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-16 16:50:58 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:50:59 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-16 16:51:59 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-16 16:52:00 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:25:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:26:37 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:26:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:29:03 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:29:04 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:30:35 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:30:36 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:31:28 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:31:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:32:30 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:32:31 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:32:42 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:32:43 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:34:29 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+INFO 2026-10-19 15:34:29 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:35:13 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:35:14 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:35:33 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:35:34 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:35:52 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:35:52 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:36:04 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:36:05 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:37:13 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:37:14 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:37:58 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:37:59 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:44:08 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:44:09 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:45:14 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:45:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:47:21 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:47:22 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:47:34 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:47:35 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:50:03 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:50:04 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:50:40 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:50:41 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 15:52:09 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 15:52:09 autoreload django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-10-19 15:57:32 log django.request Not Found: /
+WARNING 2026-10-19 15:57:33 log django.request Not Found: /favicon.ico
+ERROR 2026-10-19 15:58:03 log django.request Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 174, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/test/utils.py", line 113, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1107, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1068, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 135, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 132, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 110, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 222, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2026-10-19 16:06:26 log django.request Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 222, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 994, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/templatetags/cache.py", line 98, in do_cache
+    [parser.compile_filter(t) for t in tokens[3:]],
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 693, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 793, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Template: /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/templates/shopapp/user_orders.html, Could not parse the remainder: '}}' from '}}'
+ERROR 2026-10-19 16:07:25 log django.request Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 222, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 994, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/templatetags/cache.py", line 98, in do_cache
+    [parser.compile_filter(t) for t in tokens[3:]],
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 693, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 793, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Template: /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/templates/shopapp/user_orders.html, Could not parse the remainder: '}}' from '}}'
+ERROR 2026-10-19 16:07:58 log django.request Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 222, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 994, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 602, in parse
+    raise self.error(token, e)
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 600, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/templatetags/cache.py", line 98, in do_cache
+    [parser.compile_filter(t) for t in tokens[3:]],
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 693, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/template/base.py", line 793, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Template: /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/templates/shopapp/user_orders.html, Could not parse the remainder: '}}' from '}}'
+INFO 2026-10-19 16:11:37 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:11:37 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:13:14 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:13:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:13:40 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:13:41 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:22:45 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:22:46 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:23:34 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:23:35 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:24:56 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:24:56 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:25:59 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:26:00 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:27:00 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:27:01 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:27:53 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:27:54 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:30:45 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+INFO 2026-10-19 16:30:46 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:32:22 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:32:23 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:32:59 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:33:00 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:33:20 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:33:21 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:33:40 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:33:41 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:34:15 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:34:16 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:34:47 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:34:48 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:35:10 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:35:11 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:35:37 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:35:38 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:35:55 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:35:56 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:36:12 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:36:13 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:36:45 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:36:46 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:36:57 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:36:57 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:37:13 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:37:14 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-19 16:40:02 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:40:02 autoreload django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2026-10-19 16:40:09 log django.request Internal Server Error: /ru/shop/users/1/orders/export/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py", line 340, in get
+    return JsonResponse(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/http/response.py", line 765, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+INFO 2026-10-19 16:41:02 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:41:03 autoreload django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2026-10-19 16:41:05 log django.request Internal Server Error: /ru/shop/users/1/orders/export/
+Traceback (most recent call last):
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py", line 331, in get
+    return JsonResponse(json.loads(cache_data))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelpy/PycharmProjects/python_django/.venv/lib/python3.12/site-packages/django/http/response.py", line 765, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+INFO 2026-10-19 16:41:38 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+INFO 2026-10-19 16:41:39 autoreload django.utils.autoreload Watching for file changes with StatReloader

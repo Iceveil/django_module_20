@@ -1,0 +1,43 @@
+{% extends 'shopapp/base.html' %}
+{% load cache %}
+
+{% block title %}
+    Shop Index
+{% endblock %}
+
+
+{% block body %}
+    <h1>Hello Shop Index!</h1>
+
+    <div>
+        <ul>
+            {% for name, price in products %}
+                <li>{{ name }} for RUB {{ price }}</li>
+            <span>{{ name|capfirst }}</span>
+            {% empty %}
+                No products here
+            {% endfor %}
+
+
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            {% for name, metres in orders %}
+                <li>{{ name }} for {{metres}} metres</li>
+            <span>{{ metres|divisibleby:3 }}</span>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div>
+        Time running: {{ time_running|stringformat:".2f" }}
+    </div>
+	
+	{% cache 60 lorem %}
+	    <div>
+	        {% lorem 3 p random %}
+	    </div>
+	{% endcache %}
+{% endblock %}

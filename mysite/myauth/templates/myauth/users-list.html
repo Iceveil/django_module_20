@@ -1,0 +1,35 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+    Users List
+{% endblock %}
+
+{% block body %}
+    <h1>Users</h1>
+    <div>
+        {% if not users%}
+            <h3>Not users</h3>
+        {% else %}
+        <ul>
+            {% for user in users %}
+                <div>
+                    {% if user.profile.avatar %}
+                        <img src="{{ user.profile.avatar.url }}" alt="Avatar"
+                             style="max-width: 150px; border-radius: 8px;">
+                    {% endif %}
+                    <p>Username: {{ user.username }}</p>
+                    <p>First name: {{ user.first_name }} </p>
+                    <p>Last name: {{ user.last_name }}</p>
+                    <p>Email: {{ user.email }}</p>
+                    <p>Bio: {{ user.profile.bio }}</p>
+                </div>
+            {% endfor%}
+        </ul>
+        <div>
+            {% if request.user.is_staff or user == request.user %}
+                <a href="{% url 'myauth:change_avatar' user_id=user.id %}">Сменить аватар</a>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+{% endblock %}

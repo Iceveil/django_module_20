@@ -1,0 +1,26 @@
+{% extends 'blogapp/base.html' %}
+
+{% block title %}
+    Articles List
+{% endblock %}
+
+{% block body %}
+	<h1>Articles</h1>
+	<div>
+		{% if not articles %}
+			<h3>Not articles</h3>
+		{% else %}
+		<ul>
+			{% for article in articles %}
+				<div>
+					<p>Тема статьи: {{ article.title }} </p>
+					<p>Дата публикации: {{ article.pub_date }}</p>
+					<p>Автор: {{ article.author }}</p>
+					<p>Категория: {{ article.category }}</p>
+					<p>Теги: {{ article.tags }}</p>
+				</div>
+			{% endfor %}
+		</ul>
+		{% endif %}
+	</div>
+{% endblock %}

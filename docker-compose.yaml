@@ -1,0 +1,38 @@
+
+services:
+  app:
+    build:
+      dockerfile: ./Dockerfile
+    command:
+      - gunicorn
+      - mysite.wsgi:application
+      - --bind
+      - 0.0.0.0:8080
+    ports:
+      - '8000:8080'
+
+    logging:
+      driver: loki
+      options:
+        loki-url: http://localhost:3100/loki/api/v1/push
+
+    restart: always
+
+    volumes:
+      - ./mysite/database:/app/database
+    env_file:
+      - .env
+
+  grafana:
+    image: grafana/grafana:latest-ubuntu-slim
+    environment:
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_DISABLE_LOGIN_FORM: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: "Admin"
+    ports:
+      - "3000:3000"
+
+  loki:
+    image: grafana/loki:latest
+    ports:
+      - "3100:3100"

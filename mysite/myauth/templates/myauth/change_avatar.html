@@ -1,0 +1,21 @@
+{% extends "myauth/base.html" %}
+
+{% block body %}
+  <h1>Смена аватара — {{ object.user.username }}</h1>
+
+  {% if object.avatar %}
+    <img src="{{ object.avatar.url }}"
+         alt="Текущий аватар"
+         style="max-width: 150px; border-radius: 8px;">
+  {% else %}
+    <p>Аватар не установлен</p>
+  {% endif %}
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Сохранить</button>
+  </form>
+
+  <a href="{% url 'myauth:users_list' %}">Назад к списку</a>
+{% endblock %}

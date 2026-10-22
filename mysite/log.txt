@@ -851,3 +851,6 @@ Traceback (most recent call last):
 TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
 INFO 2026-10-19 16:41:38 autoreload django.utils.autoreload /home/michaelpy/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
 INFO 2026-10-19 16:41:39 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-22 18:25:41 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-22 18:27:35 autoreload django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-10-22 18:28:15 autoreload django.utils.autoreload Watching for file changes with StatReloader
